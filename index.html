@@ -8,6 +8,9 @@
     <title>Document</title>
   </head>
   <body>
+    <nav>
+      <div class="tittle"><h1>POKÉDEX</h1></div>
+    </nav>
     <div class="container">
       <div class="card">
         <input
@@ -22,13 +25,16 @@
             class="button"
             id="button"
             onclick="buscarPokemon()"
-            src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c31f.png"
+            src="pokebola.png"
             alt=""
           />
         </div>
-        <label class="nombrePokemon" id="nombrePokemon" for=""
+        <label class="descripcion" id="nombrePokemon" for=""
           >Pokemon: <span id="name"></span
         ></label>
+        <button class="buttonDelete" id="deleteButton" onclick="deleteAll()">
+          Borrar
+        </button>
       </div>
     </div>
     <script src="index.js"></script>
