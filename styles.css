@@ -52,7 +52,7 @@ nav {
   text-align: center;
   border: none;
   font-size: 16px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .input:focus {
@@ -71,6 +71,7 @@ nav {
   background-color: #fff;
   border-radius: 50%;
   box-shadow: 5px 5px 20px 5px #00000033;
+  margin: 10px;
 }
 
 .button:active {
@@ -82,14 +83,29 @@ nav {
   font-size: 30px;
   color: #fff;
   font-weight: bold;
+  margin: 10px;
 }
 
 .buttonDelete {
   height: 40px;
   width: 70%;
   margin: 10px;
-  background-color: #1b1e1f;
+  background-color: #101111;
   border: none;
   font-weight: bold;
   color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buttonDelete:hover {
+  background-color: #2c0909;
+  transition: 0.3s;
+}
+
+.buttonDelete:active {
+  background-color: #cc0707;
+  transition: 0.3s;
+  border: 2px solid rgb(0, 0, 0);
+  color: #000;
 }
